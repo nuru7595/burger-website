@@ -20,6 +20,10 @@ closeBtn.addEventListener("click", () => {
 
 /*~~~~~~~~~~~~~~~ TABS ~~~~~~~~~~~~~~~*/
 const tabs = document.querySelectorAll(".tabs ul li");
+const all = document.querySelectorAll(".item_wrap");
+const foods = document.querySelectorAll(".food");
+const snacks = document.querySelectorAll(".snack");
+const beverages = document.querySelectorAll(".beverage");
 
 tabs.forEach(tab => {
     tab.addEventListener("click", () => {
@@ -28,6 +32,30 @@ tabs.forEach(tab => {
         });
 
         tab.classList.add("active");
+
+        const tabval = tab.getAttribute("data-tabs");
+
+        all.forEach(item => {
+            item.classList.add("hidden");
+        });
+
+        if(tabval == "food") {
+            foods.forEach(item => {
+                item.classList.remove("hidden");
+            });
+        } else if (tabval == "snack") {
+            snacks.forEach(item => {
+                item.classList.remove("hidden");
+            });
+        } else if (tabval == "beverage") {
+            beverages.forEach(item => {
+                item.classList.remove("hidden");
+            });
+        } else {
+            all.forEach(item => {
+                item.classList.remove("hidden");
+            });
+        }
     });
 });
 

@@ -24,6 +24,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!--~~~~~~~~~~~~~~~ CSS ~~~~~~~~~~~~~~~-->
+  <!-- <link href="./style.css" rel="stylesheet" /> -->
   <link href="./style.min.css" rel="stylesheet" />
 
   <title>Burger Website || Nuru</title>
@@ -79,7 +80,8 @@
 
           <div class="separator mx-auto md:mx-0"></div>
 
-          <p class="text-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,libero magni? Fugiat
+          <p class="text-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,libero magni?
+            Fugiat
             perspiciatis eius, sequi aliquid ullam dolorem temporibus voluptate corrupti fugit saepe sunt unde culpa?
             Tenetur quos quod laudantium.</p>
 
@@ -165,7 +167,8 @@
     <section id="promo">
       <div class="container flex flex-col gap-5 lg:gap-10 lg:flex-row">
         <!-- card 1 -->
-        <div class="bg-blueLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
+        <div
+          class="bg-blueLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
           <img src="img/promo-1.png" alt="Promo Image" class="w-40 mx-auto hover:animate-movingY md:mx-5">
 
           <div class="space-y-2 pt-5 md:pt-0">
@@ -177,7 +180,8 @@
         </div>
 
         <!-- card 2 -->
-        <div class="bg-blueLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
+        <div
+          class="bg-blueLight flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
           <img src="img/promo-2.png" alt="Promo Image" class="w-40 mx-auto hover:animate-movingY md:mx-5">
 
           <div class="space-y-2 pt-5 md:pt-0">
@@ -202,15 +206,16 @@
 
           <div class="separator"></div>
 
-          <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+          <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+            dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
 
           <ul class="grid grid-cols-2 py-5 space-y-1">
             <li class="text-xs text-paragraph">
-              <i class="fa-solid fa-check text-yellowC"></i> 
+              <i class="fa-solid fa-check text-yellowC"></i>
               Best Price
             </li>
             <li class="text-xs text-paragraph">
-              <i class="fa-solid fa-check text-yellowC"></i> 
+              <i class="fa-solid fa-check text-yellowC"></i>
               Fresh Ingredient
             </li>
             <li class="text-xs text-paragraph">
@@ -235,19 +240,278 @@
 
           <div class="separator mx-auto"></div>
 
-          <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+          <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+            dolor. Aenean massa.</p>
 
           <div class="tabs">
             <ul class="flex flex-wrap justify-center gap-3 py-10">
-              <li class="btn bg-blueLight active">All</li>
-              <li class="btn bg-blueLight">Food</li>
-              <li class="btn bg-blueLight">Snack</li>
-              <li class="btn bg-blueLight">Beverage</li>
+              <li data-tabs="all" class="btn bg-blueLight active">All</li>
+              <li data-tabs="food" class="btn bg-blueLight">Food</li>
+              <li data-tabs="snack" class="btn bg-blueLight">Snack</li>
+              <li data-tabs="beverage" class="btn bg-blueLight">Beverage</li>
             </ul>
           </div>
         </div>
+        <!--  -->
+        <div>
+          <ul class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 lg:gap-12">
+            <!-- food -->
+            <li class="item_wrap food">
+              <div
+                class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/burger-1.png" alt="Food Image"
+                  class="w-40 hover:scale-110 ease-linear duration-200 md:w-48 lg:w-24">
+              </div>
 
-        
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">REGULAR BEEF BURGER</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+            <li class="item_wrap food">
+              <div
+                class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/burger-2.png" alt="Food Image"
+                  class="w-40 hover:scale-110 ease-linear duration-200 md:w-48 lg:w-24">
+              </div>
+
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">REGULAR BEEF BURGER</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+            <li class="item_wrap food">
+              <div
+                class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/burger-3.png" alt="Food Image"
+                  class="w-40 hover:scale-110 ease-linear duration-200 md:w-48 lg:w-24">
+              </div>
+
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">REGULAR BEEF BURGER</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+            <li class="item_wrap food">
+              <div
+                class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/burger-4.png" alt="Food Image"
+                  class="w-40 hover:scale-110 ease-linear duration-200 md:w-48 lg:w-24">
+              </div>
+
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">REGULAR BEEF BURGER</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+            <li class="item_wrap food">
+              <div
+                class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/burger-5.png" alt="Food Image"
+                  class="w-40 hover:scale-110 ease-linear duration-200 md:w-48 lg:w-24">
+              </div>
+
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">REGULAR BEEF BURGER</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+            <!-- snack -->
+            <li class="item_wrap snack">
+              <div
+                class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/snack-1.png" alt="Food Image"
+                  class="w-40 hover:scale-110 ease-linear duration-200 md:w-48 lg:w-24">
+              </div>
+
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">FRENCH FRIES</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+            <li class="item_wrap snack">
+              <div class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/snack-2.png" alt="Food Image" class="w-40 hover:scale-110 ease-linear duration-200 md:w-48 lg:w-24">
+              </div>
+
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">FRENCH FRIES</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+            <li class="item_wrap snack">
+              <div class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/snack-3.png" alt="Food Image" class="w-40 hover:scale-110 ease-linear duration-200 md:w-48 lg:w-24">
+              </div>
+
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">FRENCH FRIES</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+            <li class="item_wrap snack">
+              <div class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/snack-4.png" alt="Food Image" class="w-40 hover:scale-110 ease-linear duration-200 md:w-48 lg:w-24">
+              </div>
+
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">FRENCH FRIES</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+            <li class="item_wrap snack">
+              <div class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/snack-5.png" alt="Food Image" class="w-40 hover:scale-110 ease-linear duration-200 md:w-48 lg:w-24">
+              </div>
+
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">FRENCH FRIES</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+            <li class="item_wrap snack">
+              <div class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/snack-6.png" alt="Food Image" class="w-40 hover:scale-110 ease-linear duration-200 md:w-48 lg:w-24">
+              </div>
+
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">FRENCH FRIES</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+            <!-- beverage -->
+            <li class="item_wrap beverage">
+              <div class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/beverage-1.png" alt="Food Image" class="w-40 hover:scale-110 ease-linear duration-200 md:w-36 lg:w-24">
+              </div>
+
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">SWEET SMOOTHIE</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+            <li class="item_wrap beverage">
+              <div class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/beverage-2.png" alt="Food Image" class="w-40 hover:scale-110 ease-linear duration-200 md:w-48 lg:w-24">
+              </div>
+
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">SWEET SMOOTHIE</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+            <li class="item_wrap beverage">
+              <div class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/beverage-3.png" alt="Food Image" class="w-40 hover:scale-110 ease-linear duration-200 md:w-48 lg:w-24">
+              </div>
+
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">SWEET SMOOTHIE</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+            <li class="item_wrap beverage">
+              <div class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/beverage-4.png" alt="Food Image" class="w-40 hover:scale-110 ease-linear duration-200 md:w-36 lg:w-24">
+              </div>
+
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">SWEET SMOOTHIE</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+            <li class="item_wrap beverage">
+              <div class="h-56 grid place-items-center bg-blueLight rounded-3xl hover:bg-yellowC ease-linear duration-200">
+                <img src="img/beverage-5.png" alt="Food Image" class="w-40 hover:scale-110 ease-linear duration-200 md:w-48 lg:w-24">
+              </div>
+
+              <div class="pt-5">
+                <div class="mb-2">
+                  <h4 class="title card-title">SWEET SMOOTHIE</h4>
+                  <p class="text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <p class="text-yellowC">$42.00</p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
       </div>
     </section>
 
