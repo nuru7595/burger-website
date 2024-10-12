@@ -10,16 +10,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        primaryColor: '#010a5e',
-        primaryColorLight: "#010d78",
-        secondaryColor: '#FFCC00',
-        paragraphColor: '#c0c0c0',      
-        whiteColor: '#fff',
-        blackColor: "#000",
+        blueC: '#010a5e',
+        blueLight: "#010d78",
+        yellowC: '#FFCC00',
+        paragraph: '#c0c0c0',
         greenColor: "#007936",
         redColor: "#cc3433",
-        darkColor: '#000',
-        darkColorLight: "#171717",
+        darkColorLight: "#171717"
       },
       keyframes: {
         move: {
@@ -27,7 +24,7 @@ module.exports = {
         }
       },
       animation: {
-        'movingY': 'move 2s linear infinite'
+        "movingY": "move 2s linear infinite"
       }
     },
     container: {

@@ -24,28 +24,29 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!--~~~~~~~~~~~~~~~ CSS ~~~~~~~~~~~~~~~-->
-  <link href="style.min.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
 
   <title>Burger Website || Nuru</title>
 </head>
 
 <body>
   <!--~~~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~-->
-  <header class="bg-blue-950 fixed top-0 left-0 w-full z-50">
+  <header class="bg-blueC fixed top-0 left-0 w-full z-50">
     <nav class="container flex justify-between items-center h-14 relative">
       <div>
         <a href="#" class="text-2xl uppercase font-oswald">
-          Bur<span class="text-yellow-400">ger</span>
+          Bur<span class="text-yellowC">ger</span>
         </a>
       </div>
 
-      <div id="nav-menu" class="hidden absolute top-0 left-0 w-full py-14 bg-blue-950 border-b border-yellow-400 md:block md:static md:w-auto md:py-0 md:border-none md:ml-auto">
+      <div id="nav-menu"
+        class="hidden absolute top-0 left-0 w-full py-14 bg-blueC border-b border-yellowC md:block md:static md:w-auto md:py-0 md:border-none md:ml-auto">
         <ul class="flex flex-col gap-5 items-center md:flex-row">
-          <li><a href="#home" class="hover:text-yellow-400 ease-in duration-200 nav-link">Home</a></li>
-          <li><a href="#about" class="hover:text-yellow-400 ease-in duration-200 nav-link">About</a></li>
-          <li><a href="#menu" class="hover:text-yellow-400 ease-in duration-200 nav-link">Menu</a></li>
-          <li><a href="#review" class="hover:text-yellow-400 ease-in duration-200 nav-link">Review</a></li>
-          <li><a href="#contact" class="hover:text-yellow-400 ease-in duration-200 nav-link">Contact</a></li>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#review" class="nav-link">Review</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
 
         <div id="close-btn" class="absolute top-[0.7rem] right-4 text-3xl cursor-pointer md:hidden">
@@ -68,20 +69,46 @@
   <main>
     <!--~~~~~~~~~~~~~~~ Home ~~~~~~~~~~~~~~~-->
     <section id="home">
-      <div>
-        <div>
-          <img src="./img/home-image.png" alt="Burger">
+      <div class="container flex flex-col items-center gap-10 md:flex-row">
+        <div class="mx-auto md:basis-1/2 lg:basis-2/5 animate-movingY">
+          <img src="./img/home-image.png" alt="Burger" class="w-60">
         </div>
 
-        <div>
-          
+        <div class="text-center md:basis-1/2 md:text-start">
+          <h1 class="title">Happy tummy with tasty burgers.</h1>
+
+          <div class="separator mx-auto md:mx-0"></div>
+
+          <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,libero magni? Fugiat perspiciatis eius, sequi aliquid ullam dolorem temporibus voluptate corrupti fugit saepe sunt unde culpa? Tenetur quos quod laudantium.</p>
+
+          <div class="text-base flex items-center justify-center gap-4 py-10 md:justify-start md:gap-20">
+            <div class="text-center">
+              <i class="fa-solid fa-utensils text-yellowC text-4xl"></i>
+              <br>
+              Delicious
+            </div>
+
+            <div>
+              <i class="fa-solid fa-droplet text-yellowC text-4xl"></i>
+              <br>
+              Fresh
+            </div>
+
+            <div>
+              <i class="fa-brands fa-envira text-yellowC text-4xl"></i>
+              <br>
+              Organic
+            </div>
+          </div>
+
+          <a href="#" class="btn btn-primary">Learn More</a>
         </div>
       </div>
     </section>
 
     <!--~~~~~~~~~~~~~~~ Category ~~~~~~~~~~~~~~~-->
     <section id="category">
-
+      
     </section>
 
     <!--~~~~~~~~~~~~~~~ Promo ~~~~~~~~~~~~~~~-->
