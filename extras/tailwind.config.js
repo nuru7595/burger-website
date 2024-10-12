@@ -14,8 +14,8 @@ module.exports = {
         blueLight: "#010d78",
         yellowC: '#FFCC00',
         paragraph: '#c0c0c0',
-        greenColor: "#007936",
-        redColor: "#cc3433",
+        redC: "#cc3433",
+        greenC: "#007936",
         darkColorLight: "#171717"
       },
       keyframes: {
