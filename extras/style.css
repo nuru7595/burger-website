@@ -5,8 +5,12 @@
 @tailwind utilities;
 
 @layer base {
+    html {
+        @apply scroll-smooth;
+    }
+
     body {
-        @apply bg-blueC text-white tracking-wider font-dmsans;
+        @apply bg-blueC text-white tracking-wider font-dmsans dark:bg-black;
     }
 
     section {

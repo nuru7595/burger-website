@@ -16,7 +16,7 @@ module.exports = {
         paragraph: '#c0c0c0',
         redC: "#cc3433",
         greenC: "#007936",
-        darkColorLight: "#171717"
+        darkLight: "#171717"
       },
       keyframes: {
         move: {
